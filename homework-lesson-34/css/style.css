@@ -1,0 +1,21 @@
+.opensans {
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+.loremco {
+    text-decoration: line-through;
+}
+.mid {
+    text-align: center;
+}
+.wave {
+    text-decoration: overline wavy;
+    word-spacing: 30px;
+}
+.underl {
+    letter-spacing: 5px;
+    text-decoration: underline double;
+}
