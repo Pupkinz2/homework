@@ -1,0 +1,52 @@
+body {
+    background: rgba(0, 0, 0, 0.842);
+}
+
+.texts {
+    color: white;
+}
+
+/* ===================================== */
+
+/* .wideline {
+    background: white;
+    top: 150px;
+    margin-right: 50px;
+    min-height: 50px;
+    max-width: 100px;
+    position: fixed;
+    left: 50%;
+} */
+
+.wideline {
+    display: flex;
+    background: white;
+    width: 100%;
+    max-width: 264px;
+    height: 30px;
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    bottom: 50px;
+
+
+}
+
+.round {
+    display: flex;
+    background: red;
+    position: fixed;
+    z-index: 1;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    bottom: 62px;
+    left: 55%;
+    
+}
